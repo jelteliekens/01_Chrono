@@ -43,7 +43,7 @@ body {
     }
 }
 
-@media screen and (orientation: landscape) and (max-width: 500px) {
+@media screen and (orientation: landscape) {
     body {
         background: url("img/chrono_landscape.jpg");
         background-size: cover;
