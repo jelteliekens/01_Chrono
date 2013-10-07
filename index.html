@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=false;">
+    <meta charset="UTF-8">
+    <title>01_Chrono</title>
+
+    <link rel="shortcut icon" href="img/chrono.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="timer.js"></script>
+
+</head>
+<body>
+<div class="btngroup">
+    <button class="btn" id="btnStart" type="button" onclick="chronoStart(); ">Start</button>
+    <button class="btn" id="btnContinue" type="button" disabled onclick="chronoContinue()">Continue</button>
+    <button class="btn" id="btnPauze" type="button" disabled onclick="chronoPauze(); ">Pauze</button>
+</div>
+<p id="timer">00:00.000</p>
+</body>
+</html>
